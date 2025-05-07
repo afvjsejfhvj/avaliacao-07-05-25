@@ -1,10 +1,10 @@
 {
   "name": "avaliacao",
   "version": "1.0.0",
-  "main": "NODE",
+  "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./NODE/script.js"
+    "start": "nodemon script.js"
   },
   "author": "",
   "license": "ISC",
