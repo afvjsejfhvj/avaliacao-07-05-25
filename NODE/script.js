@@ -17,7 +17,7 @@ app.get('/logs', (req, res)=>{
     })
 })
 
-app.get('/logs/:id', (req, res)=>{
+app.post('/logs/:id', (req, res)=>{
     const dados = req.body
     fs.readFile('./NODE/logs.txt', 'utf-8', (err, data)=> {
         if(err){
